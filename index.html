@@ -5,6 +5,10 @@
 	<meta charset="utf-8">
 	<title>Mon onglet</title>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/8fde92c3d3.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -16,22 +20,69 @@
         <div class="light"></div>
     </div>
 
+
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/image1.jpg);">
+  <div class="container">
+    <h1>Les Muffins de Grand Mère <strong>Fondant et Croustillant</strong> to <strong>creative people</strong>!</h1>
+ <img src="images/mojito.jpg" width="300px" class="img1">
+
+         <br>
+
+         <a href="https://github.com/Joz84/day-a.github.io" target="_blank" class="btn-pink">Mon premier lien</a>
+
+
+         <!-- Button trigger modal -->
+<button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModal">
+Contact
+</button>
+  </div>
+</div>
+
+
   <div class="navbar">
     <img src="images/logo.png" class="logo">
     <div class="links">
       <a href="" class="link">Présentation</a>
       <a href="" class="link">Team</a>
-      <a href="" class="link">Contact</a>
+
+      <!--Button trigger modal --> 
+<button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModal">
+Contact
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Téléphone : 0607060706
+        <br>
+        Mail : fzefzef@efap.com
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
     </div>
   </div>
 
 
-    <div class="cadre margin-100px">
+   <!-- <div class="cadre margin-100px">
           <h1>Mon titre</h1>
          <h2 class="color-green">Mon sous titre</h2>
-    </div>
+    </div>-->
     <div class="cadre margin-100px">
-        <h3 class="color-green">Mon sous sous titre</h3>
+        <h3 class="color-green"><i class="fas fa-cookie-bite"></i>Mon sous sous titre</h3>
 
             <p>La légende raconte que <b>l'histoire du mojito</b> remonterait au début du xvie siècle (la date de naissance officieuse du prédécesseur du mojito est 1586) lorsque le corsaire explorateur anglais Francis Drake, entre deux pillages de La Havane, appréciait siroter des feuilles de menthe pilées avec du tafia (rhum industriel). <i>Cette tradition explique que des clients actuels demandent dans certains bars « give me a Drake » (« donnez moi un Drake » en anglais).</i>
             <br>
@@ -44,12 +95,11 @@
             En France, il a été démocratisé à partir des années 1990 par une importante campagne marketing de la part de la marque de <strong>rhum Havana Club</strong>.</p>
 
 
-         <img src="images/mojito.jpg" width="300px" class="img1">
+        <!-- <img src="images/mojito.jpg" width="300px" class="img1">
 
          <br>
 
-         <a href="https://github.com/Joz84/day-a.github.io" target="_blank" class="btn-pink">Mon premier lien</a>
-    </div>
+         <a href="https://github.com/Joz84/day-a.github.io" target="_blank" class="btn-pink">Mon premier lien</a>-->
 
     <div class="cadre margin-100px">
           <h3 class="color-green">Ma recette en vidéo</h3>
@@ -105,15 +155,63 @@
 
     <div class="cadre margin-100px">
         <h3 class="color-green">Vos productions</h3>
-        <img src="images/mojito1.jpg" class="img2">
+
+         <div class="card" style="width: 18rem;">
+  <img src="images/mojito1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ghirin</h5>
+    <p class="card-text">"c'est quoi mojito".</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/mojito2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mino</h5>
+    <p class="card-text">"J'aaaaadore les mojitos".</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/mojito3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Danny</h5>
+    <p class="card-text">"Je bois pas d'alcool".</p>
+  </div>
+
+      <!--  <img src="images/mojito1.jpg" class="img2">
         <img src="images/mojito2.jpg" class="img2">
-        <img src="images/mojito3.jpg" class="img2">
+        <img src="images/mojito3.jpg" class="img2">-->
     </div>
+
+
+<div class="care margin-100px">
+  <h3>Ajouter ma production</h3>
+  <div class="typeform-widget" data-url="https://anaismoussaoui.typeform.com/to/IvEc8N" style="width: 100%; height: 300px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=IvEc8N&utm_source=typeform.com-01E95D1S422T3B1AYPEEV2XR7Q-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+</div>
+
+
+
 
     <div class="cadre margin-100px">
         <h3 class="color-green">Une Super Adresse !</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11316.440243610348!2d-0.5920038013860639!3d44.83969191177522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d8070baa46af%3A0x3e9e447fe1a4a288!2sL&#39;Atelier%20du%2048!5e0!3m2!1sfr!2sfr!4v1590195198409!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+</div>
 
 </body>
 
