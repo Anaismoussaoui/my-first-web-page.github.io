@@ -149,6 +149,7 @@ h1{
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
   margin-top: 30px;
+  font-family: 'Anton', sans-serif;
 }
 .footer-links {
   display: flex;
@@ -168,6 +169,3 @@ h1{
 .footer .fa-heart {
   color: #D23333;
 }
-
-
-
